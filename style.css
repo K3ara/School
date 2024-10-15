@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.baskervville-sc-regular {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#816d3d
+  
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .brownButton {
+    background-color:#85754e;
+    color:white;
+    padding:10px;
+    text-decoration: none;
+  }
+
+  .brownButton:hover{
+    background-color: black;
+    
+  }
+
+  .mycontainer {
+    position:relative;
+  }
+
+  .mycontainer:hover    .overlay {
+    opacity:1;
+  }
+
+  .overlay{
+    height:50%;
+    position:absolute;
+    bottom:0px;
+    opacity:0;
+    background:rgba(0 , 31 , 6 , 0.5);
+    transition:all 0.9s ease-out;
+    text-align:center;
+    padding:10px;
+    font-size:25px;
+    color:white;
+
+  }
+
+  .hidden {
+    opacity:0.3;
+    transform:translateX(30px);
+    transition: all 1s;
+  }
+
+  .show {
+    opacity:1;
+    transform: translateX(0px);
+
+  }
